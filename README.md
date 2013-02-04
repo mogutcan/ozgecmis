@@ -1,6 +1,4 @@
-ozgecmis
+http://ozgecmis.herokuapp.com
 ========
 
-Özgeçmiş oluşturma, arama...
 
-Çok çok yakında, neredeyse aramızda :P
