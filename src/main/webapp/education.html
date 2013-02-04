@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Cv oluşturma rehberi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+ 	<link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="js/bootstrap-alert.js"></script>
+    <script type="text/javascript" src="js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="js/bootstrap-scrollspy.js"></script>
+    <script type="text/javascript" src="js/bootstrap-tab.js"></script>
+    <script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
+    <script type="text/javascript" src="js/bootstrap-popover.js"></script>
+  	<script type="text/javascript" src="js/mesajlar.js"></script>
+  </head>
+  <body background="bg.png">
+  <div id="wrap">	  
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="feed.html">Özgeçmiş[beta]</a>
+    <ul class="nav">
+    <li><a href="index.html">Kişisel:Başlangıç</a></li>
+    <li class="active"><a href="education.html">Eğitim </a></li>
+    <li><a href="experience.html">Deneyimler</a></li>
+    <li><a href="personal.html">Kişisel</a></li>
+    <li><a href="credential.html">Referanslar</a></li>
+    <li><a href="picture.html">Profil Resmi</a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+   
+    <form class="navbar-search pull-left" action="search.jsp" method="post">
+  		<input type="text" class="search-query" name="search" id="search" placeholder="insanları ve özgeçmişlerini ara">
+	</form>
+    </ul>
+  </div>
+</div>
+  <div class="container">
+  <div class="row">
+  <div class="span8">
+  
+	<form class="form-horizontal" id="registerHere" method='post' action="getDataEdu">
+	  <fieldset>
+	    <legend>Eğitim</legend>    
+	    <div class="control-group">
+	      <label class="control-label">Lisansüstü</label>
+	      <div class="controls">
+	        <input type="text" class="input-xlarge" id="lisansustu" name="lisansustu">
+	      </div>
+		</div>		
+		<div class="control-group">
+	      <label class="control-label">Lisans</label>
+	      <div class="controls">
+	        <input type="text" class="input-xlarge" id="lisans" name="lisans">
+	      </div>
+	   </div>	   
+	   <div class="control-group">
+	      <label class="control-label">Önlisans</label>
+	      <div class="controls">
+	        <input type="text" class="input-xlarge" id="onlisans" name="onlisans">
+	      </div>
+	   </div>	   
+	   <div class="control-group">  
+            <label class="control-label" for="textarea">Yabancı Dil ve Seviyeleri</label>  
+            <div class="controls">  
+              <textarea class="input-xlarge" id="yabancidil" name="yabancidil" rows="3"></textarea>  
+            </div>  
+       </div>     
+       <div class="control-group">  
+            <label class="control-label" for="textarea">Kazanılan Bilgi ve Beceriler</label>  
+            <div class="controls">  
+              <textarea class="input-xlarge" id="beceri" name="beceri" rows="3"></textarea>  
+            </div>  
+       </div>     
+       <div class="control-group">  
+            <label class="control-label" for="textarea">Kazanılmış Ödüller (Burs, yüksek onur, madalya vb.)</label>  
+            <div class="controls">  
+              <textarea class="input-xlarge" id="oduller" name="oduller" rows="3"></textarea>  
+            </div>  
+       </div>
+       </fieldset>	   
+	   <div class="controls"align="right">
+	 	<button type="submit" class="btn">İleri &rarr;</button>
+	   </div>
+	   </form>	    	
+	</div>
+	</div>
+	</div>
+</div>
+<div id="footer">
+    <div class="container" align="center">
+        <p class="muted credit">&copy; 2013 <a href="http://mogutcan.herokuapp.com" target="_blank">Mehmet Öğütcan</a>
+        Fikirleriniz önemli. Görüşlerinizi bildirerek <a href="feed.html"> geri dönüş </a> yapın.
+        </p>
+    </div>  
+</div>
+</body>
+</html>
