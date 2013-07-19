@@ -98,7 +98,7 @@ for ( int j=0 ; j < main.db.liste.size(); j++ ){
 </div>
 <div id="footer">
     <div class="container" align="center">
-        <p class="muted credit">&copy; 2013 <a href="http://mogutcan.herokuapp.com" 			 		target="_blank">Mehmet Öğütcan</a>
+        <p class="muted credit">&copy; 2013 <a href="http://mogutcan.herokuapp.com" target="_blank">Mehmet Öğütcan</a>
         Fikirleriniz önemli. Görüşlerinizi bildirerek <a href="feed.html"> geri dönüş </a> yapın.
         </p>
     </div>  
